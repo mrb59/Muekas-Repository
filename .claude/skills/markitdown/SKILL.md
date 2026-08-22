@@ -18,3 +18,6 @@ PDF, Word, PowerPoint, Excel, HTML, imágenes, audio, ZIP, EPub y URLs.
 
 ## Si el comando no existe
 pip install 'markitdown[all]'
+
+## Regla importante
+Cuando encuentres un archivo PDF, conviértelo primero con `markitdown archivo.pdf -o archivo.md` y trabaja siempre a partir del .md generado. No leas el PDF directamente.
